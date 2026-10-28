@@ -1227,42 +1227,6 @@
   color: var(--ink-muted);
 }
 
-/* --------------------------------------------------------------------------
-   9. SAVE THE DATE & RSVP / CONTACT SECTION
-   -------------------------------------------------------------------------- */
-.rsvp-card {
-  background: var(--ivory);
-  border: 2px solid var(--gold);
-  border-radius: var(--border-radius-lg);
-  padding: 36px 24px;
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto;
-  box-shadow: var(--shadow-md), var(--shadow-gold);
-}
-
-.rsvp-cta-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  margin: 24px 0;
-}
-
-@media (min-width: 600px) {
-  .rsvp-cta-group {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
-.contacts-list {
-  margin-top: 24px;
-  padding-top: 20px;
-  border-top: 1px dashed rgba(184, 134, 11, 0.3);
-  font-size: 0.95rem;
-  color: var(--ink);
-}
 
 /* --------------------------------------------------------------------------
    10. FOOTER
@@ -1366,9 +1330,6 @@
     padding: 22px 16px;
   }
 
-  .rsvp-card {
-    padding: 28px 16px;
-  }
 
   .map-card-header {
     padding: 16px 18px;
@@ -1458,15 +1419,6 @@
     text-align: center;
   }
 
-  .rsvp-cta-group {
-    width: 100%;
-    align-items: stretch;
-  }
-
-  .rsvp-cta-group .btn {
-    width: 100%;
-    text-align: center;
-  }
 
   .master-calendar-box {
     padding: 20px 14px;

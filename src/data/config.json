@@ -1,11 +1,4 @@
 {
-  "brideName": {
-    "en": "Harshita",
-    "fullName": "Harshita Motwani",
-    "parents": {
-      "en": "Daughter of Mrs. Menna & Mr. Sunil Motwani"
-    }
-  },
   "groomName": {
     "en": "Harshal",
     "fullName": "Harshal Vaidya",
@@ -13,12 +6,19 @@
       "en": "Son of Mrs. Samiksha Vaidya & Mr. Sameer Vaidya"
     }
   },
-  "weddingStart": "2026-12-12T10:00:00+05:30",
+  "brideName": {
+    "en": "Harshita",
+    "fullName": "Harshita Motwani",
+    "parents": {
+      "en": "Daughter of Mrs. Meena & Mr. Sunil Motwani"
+    }
+  },
+  "weddingStart": "2026-12-13T10:30:00+05:30",
   "weddingCity": "Mumbai, Maharashtra",
   "contact": {
     "whatsappPhone": "8693067487",
     "displayPhone": "8693067487",
-    "coordinator": "Motwani & Vaidya Families"
+    "coordinator": "Vaidya & Motwani Families"
   },
   "siteUrl": "https://lagna-amantran.vercel.app/"
 }

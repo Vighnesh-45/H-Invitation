@@ -111,7 +111,7 @@ export const renderEvents = (events) => {
     const icsBtn = card.querySelector('.single-ics-btn');
     if (icsBtn) {
       icsBtn.addEventListener('click', () => {
-        downloadICS(event, `${event.id}-harshita-harshal.ics`);
+        downloadICS(event, `${event.id}-harshal-harshita.ics`);
       });
     }
 
@@ -149,7 +149,7 @@ export const renderEvents = (events) => {
   // 3. Master Calendar Download All Events
   if (masterIcsBtn) {
     masterIcsBtn.addEventListener('click', () => {
-      downloadICS(events, 'harshita-harshal-all-wedding-events.ics');
+      downloadICS(events, 'harshal-harshita-all-wedding-events.ics');
     });
   }
 };

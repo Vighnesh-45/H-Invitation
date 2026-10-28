@@ -36,11 +36,7 @@ A warm, celebratory, mobile-first wedding invitation website in English, built a
    - Lazy-loaded embedded Google Maps (`loading="lazy"`, sandbox protected).
    - "Open in Google Maps" turn-by-turn navigation links.
 
-7. **Save the Date & RSVP:**
-   - Direct WhatsApp confirmation button with prefilled celebratory text (`wa.me`).
-   - Direct family coordinator phone link.
-
-8. **Ambient Motion & Accessibility:**
+7. **Ambient Motion & Accessibility:**
    - Floating marigold petals and subtle Diya glow.
    - Pause/Resume animations button (`⏸ / ▶`).
    - Strict `prefers-reduced-motion` compliance and WCAG AA contrast.
@@ -97,11 +93,10 @@ All event details are stored in [src/data/events.json](file:///d:/Invitation/src
 }
 ```
 
-### 2. How to Edit Names, Couple & RSVP Details
-Configuration is located in [src/data/config.json](file:///d:/Invitation/src/data/config.json):
+### 2. How to Edit Names & Couple Details
+Configuration is located in [src/data/config.json](file:///d:/H-Invitation/src/data/config.json):
 - `groomName`, `brideName`
 - `weddingStart` (ISO 8601 with `+05:30`)
-- `contact.whatsappPhone` and `contact.displayPhone`
 
 ### 3. How to Replace Images & Motifs
 - Lord Ganesha image: [public/assets/ganesha.png](file:///d:/Invitation/public/assets/ganesha.png)

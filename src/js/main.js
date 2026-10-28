@@ -35,19 +35,6 @@ const handleGuestPersonalization = () => {
   }
 };
 
-/**
- * Sets up WhatsApp direct RSVP link with prefilled celebratory message
- */
-const setupWhatsAppRSVP = () => {
-  const rsvpBtn = document.getElementById('whatsapp-rsvp-btn');
-  if (!rsvpBtn || !config.contact?.whatsappPhone) return;
-
-  const msg = encodeURIComponent(
-    `Hello! We received your wedding invitation for ${config.brideName.en} & ${config.groomName.en}. We are thrilled to celebrate with your families!`
-  );
-
-  rsvpBtn.href = `https://wa.me/${config.contact.whatsappPhone}?text=${msg}`;
-};
 
 /**
  * Initializes sticky navigation active section tracking
@@ -84,27 +71,24 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. Safe guest personalization
   handleGuestPersonalization();
 
-  // 2. WhatsApp RSVP
-  setupWhatsAppRSVP();
-
-  // 3. Render event timeline & map blocks
+  // 2. Render event timeline & map blocks
   renderEvents(events);
 
-  // 4. Initialize Countdown with IST wedding date
+  // 3. Initialize Countdown with IST wedding date
   initCountdown(config.weddingStart);
 
-  // 5. Initialize Intro Screen Overlay
+  // 4. Initialize Intro Screen Overlay
   initIntro();
 
-  // 6. Initialize Ambient Marigold Particles & Toggle
+  // 5. Initialize Ambient Marigold Particles & Toggle
   initAmbientEffects();
 
-  // 7. Initialize Scroll Reveal Observers
+  // 6. Initialize Scroll Reveal Observers
   initScrollReveal();
 
-  // 8. Initialize Lazy Loaded Google Maps
+  // 7. Initialize Lazy Loaded Google Maps
   initLazyMaps();
 
-  // 9. Sticky Nav Active State Tracking
+  // 8. Sticky Nav Active State Tracking
   setupNavHighlight();
 });
