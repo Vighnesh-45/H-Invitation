@@ -1,0 +1,34 @@
+[
+  {
+    "id": "haldi",
+    "icon": "henna",
+    "title": {
+      "en": "Haldi"
+    },
+    "start": "2026-12-10T09:30:00+05:30",
+    "end": "2026-12-10T21:00:00+05:30",
+    "venueName": "Vaidya's Residence",
+    "address": "204, A wing, Sainath apt, P. G. Road, Kumbhar wada, Malad West, Mumbai - 400064  Landmark- opposite koli samaj hall",
+    "mapQuery": "Oberoi Splendor, JVLR, Jogeshwari East, Mumbai",
+    "directMapUrl": "https://maps.app.goo.gl/8efjokkr8Mfqn37N9?g_st=iw",
+    "description": {
+      "en": "An enchanting evening of intricate henna motifs, joyous music, folk songs, dance, and spirited family celebrations."
+    }
+  },
+
+  {
+    "id": "wedding",
+    "icon": "mandap",
+    "title": {
+      "en": "Maharashtrian Wedding"
+    },
+    "start": "2026-12-13T10:30:00+05:30",
+    "venueName": "Golden Leaf Banquet",
+    "address": "5th Floor, Link House Building, Chincholi Bunder Signal, Link Rd, Mindspace, Malad West, Mumbai, Maharashtra 400064",
+    "mapQuery": "Golden Leaf Banquet, Malad West, Mumbai",
+    "directMapUrl": "https://maps.app.goo.gl/dn1w1dys3hpaS74D9?g_st=iw",
+    "description": {
+      "en": "Sacred wedding vows, pheras, and auspicious blessings uniting Harshita and Harshal, followed by a grand celebratory banquet."
+    }
+  }
+]
