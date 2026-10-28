@@ -108,12 +108,14 @@
 
 .intro-avatars-row {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: flex-end;
   justify-content: center;
-  gap: 16px;
+  gap: clamp(12px, 3vw, 24px);
   width: 100%;
   max-width: 600px;
-  margin: 12px 0 24px 0;
+  margin: 12px auto 24px auto;
 }
 
 .intro-avatar-wrapper {
